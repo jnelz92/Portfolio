@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
-
+/*this changes the entire page backround color*/
 body {
   background-color: lightcyan;
 }
@@ -16,7 +16,7 @@ header {
   color: whitesmoke
   }
 
-
+/*this is used to center the image to the page*/
 .center {
   display: block;
   margin-left: auto;
@@ -43,6 +43,19 @@ section {
 
 hr{
   width: 400px;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: purple;
+}
+a:active {
+  color: green;
 }
 
 
